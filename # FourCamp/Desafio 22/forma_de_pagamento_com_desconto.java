@@ -78,7 +78,8 @@ public class forma_de_pagamento_com_desconto {
 
             System.out.println("\nObrigado pela preferência!");
 
-        }
-        
+        } catch (Exception e) {
+            System.out.println("Erro: " + e);
+        }        
     }
 }
